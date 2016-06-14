@@ -23,26 +23,41 @@ o Total de descontos : R$ 165,00
  */
 package Lista4;
 
+import java.util.Scanner;
+
 public class questao2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Qual o valor da sua hora trabalhada: ");
+        float ht = sc.nextFloat();
+        System.out.print("Quantas horas trabalhadas no mês: ");
+        Float qh = sc.nextFloat();
+        
+        Float s = ht*qh;
+        
+        float a = (s/100)*10; // "a" = desconto INSS
+        float b = (s/100)*20; // "b" = desconto 20% IR
+        float c = (s/100)*10; // "c" = desconto 10% IR
+        float d = (s/100)*10; // "d" = desconto 5% IR
     
     
+        
+        if (s>2500){
+            
+        System.out.println("\nDesconto IR: " + b + "\nDesconto INSS: " + a + "\nSalário líquido: " + (s-a-b));
+            
+                        
+        }else if (s<2500){
+        System.out.println("\nDesconto IR: " + c + "\nDesconto INSS: " + a + "\nSalário líquido: " + (s-a-c));
+            
+            
+        }else if (s<=1500){
+        System.out.println("\nDesconto IR: " + d + "\nDesconto INSS: " + a + "\nSalário líquido: " + (s-a-d));    
+              
+        }else{
+        System.out.println("\nIsento IR, desconto INSS: " + a + "\nSalário líquido: " + (s-a)); 
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        
+}
+    }      
 }

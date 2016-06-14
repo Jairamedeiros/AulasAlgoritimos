@@ -23,7 +23,7 @@ public class questao1 {
     System.out.print("Informe seu salário: ");
     float s = sc.nextFloat();
         
-    float s1 = s*0.20f;
+    float s1 = s*0.20f; 
     float s2 = s*0.15f;
     float s3 = s*0.10f;
     float s4 = s*0.05f;        

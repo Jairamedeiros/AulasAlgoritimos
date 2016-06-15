@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class questao3 {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.print("Informe o dia da semana: (1)Domingo (2)Segunda (3)Terça (4)Quartae) (5)Quinta (6)Sexta (7)Sábado: ");
+    System.out.print("Informe o dia da semana: \n(1)Domingo \n(2)Segunda \n(3)Terça \n(4)Quartae) \n(5)Quinta \n(6)Sexta \n(7)Sábado\n Opção: ");
     char d = sc.next().charAt(0);
     
     char dia = d;

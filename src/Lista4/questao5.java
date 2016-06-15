@@ -16,15 +16,34 @@ import java.util.Scanner;
 public class questao5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Informe os 3 lados do triângulo: ");
-        float t1 = sc.nextFloat();
-        float t2 = sc.nextFloat();
-        float t3 = sc.nextFloat();
+        System.out.println("Informe os lados: ");
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int z = sc.nextInt();
+    
+        
+        if (!(x+y>z && x+z>y && y+z>x)){
+            System.out.println("Lados não formam triângulo!");     
+            
+        }else{
+            if(x==y && x==z && y==z){            
+              System.out.println("Triângulo Equilátero!");
+ 
+        } else if(x==y || x==z || y==z){            
+              System.out.println("Triângulo Isósceles!");
+              
+        } else 
+             System.out.println("Triângulo Escaleno!");    
+                 
+                 
+                 
+                 
+             }
     
     
-          
+        
+            }
+        } 
     
     
     
-    } 
-}

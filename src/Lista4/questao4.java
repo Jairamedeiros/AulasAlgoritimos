@@ -30,7 +30,12 @@ public class questao4 {
        
         
         
-        if (m>9){
+        
+        
+        if (m<0 || m >10){
+        System.out.println("Digite as notas entre 0 e 10");        
+                 
+        }else if (m>9){
         
         System.out.println("Aprovado conceito (A) média: " + m);                
                 

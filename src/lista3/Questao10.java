@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Questao10 {
     public static void main(String[] args) { 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Informe o turno que vc estuda: (M) Matutino (V) Vespertino (N) Noturno: ");
+        System.out.print("Informe o turno que vc estuda: \n(M) Matutino \n(V) Vespertino \n(N) Noturno\nOpção: ");
         String turno = sc.next();
         
 if (turno.equalsIgnoreCase ("m")){

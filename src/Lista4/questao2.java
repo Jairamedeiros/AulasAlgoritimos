@@ -38,7 +38,7 @@ public class questao2 {
         float a = (s/100)*10; // "a" = desconto INSS
         float b = (s/100)*20; // "b" = desconto 20% IR
         float c = (s/100)*10; // "c" = desconto 10% IR
-        float d = (s/100)*10; // "d" = desconto 5% IR
+        float d = (s/100)*5; // "d" = desconto 5% IR
     
     
         
@@ -47,7 +47,7 @@ public class questao2 {
         System.out.println("\nDesconto IR: " + b + "\nDesconto INSS: " + a + "\nSalário líquido: " + (s-a-b));
             
                         
-        }else if (s<2500){
+        }else if (s<=2500){
         System.out.println("\nDesconto IR: " + c + "\nDesconto INSS: " + a + "\nSalário líquido: " + (s-a-c));
             
             

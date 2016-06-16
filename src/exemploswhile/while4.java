@@ -21,8 +21,7 @@ public class while4 {
             soma+=numero;
             contador++;
         
-            System.out.print("Digite o numero");
-            int numero = sc.nextInt();
+        } System.out.print("Digite o numero");
             
             
             
@@ -33,4 +32,4 @@ public class while4 {
     
     
     
-}
+

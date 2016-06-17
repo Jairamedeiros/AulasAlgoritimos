@@ -61,22 +61,21 @@ public class candidatos2 {
         float pc = (c/t)*100;
         
         
-        if(pa>50 || pb>50 || pc>50){
-           System.out.println("Eleição decidida em primeiro turno!!");
+     if(pa>50 || pb>50 || pc>50){
+     System.out.println("Eleição decidida em primeiro turno!!");
             
-        }else if(a>b && a>c){
-         System.out.println("Vencedor - candiadato 1 - Quantidade de votos = " +a);
+     }else if(a>b && a>c){
+     System.out.println("Vencedor - candiadato 1 - Quantidade de votos = " +a);
       
-       }else if(b>a && b> c){
-        System.out.println("Vencedor - candidato 2 - Quantidade de votos = " +b);
+     }else if(b>a && b> c){
+     System.out.println("Vencedor - candidato 2 - Quantidade de votos = " +b);
            
-  }else if (c>a && c> b){
-            System.out.println("Vencedor - candiadto 3 - Quantidade de votos = " + c);
+     }else if (c>a && c> b){
+     System.out.println("Vencedor - candiadto 3 - Quantidade de votos = " + c);
       
       
-  }  else{
-      
-        System.out.println("Eleição vai para o segundo turno");
+    }else{ 
+     System.out.println("Eleição vai para o segundo turno");
             
             
         }
@@ -91,10 +90,18 @@ public class candidatos2 {
                   
       
       
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
   }
-            
-            
-            
+                      
     }
 
      

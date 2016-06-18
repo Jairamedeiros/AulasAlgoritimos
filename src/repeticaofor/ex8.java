@@ -1,6 +1,9 @@
 
 package repeticaofor;
 
+
+// Achar o némero fatorado
+
 import java.util.Scanner;
 
 public class ex8 {

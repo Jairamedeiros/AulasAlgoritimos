@@ -1,5 +1,5 @@
 /*
- 3. Faça um programa que leia e valide as seguintes informações:
+3. Faça um programa que leia e valide as seguintes informações:
 a. Nome: maior que 3 caracteres;
 b. Idade: entre 0 e 150;
 c. Salário: maior que zero;

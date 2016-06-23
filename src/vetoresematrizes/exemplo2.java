@@ -1,5 +1,5 @@
 /*
-Enquanto i for menos do que o comprimento dos numeros, mostre-os
+Enquanto i for menor do que o comprimento dos numeros, mostre-os
  */
 package vetoresematrizes;
 

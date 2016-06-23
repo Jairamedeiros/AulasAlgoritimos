@@ -8,4 +8,19 @@ país A ultrapasse ou iguale a população do país B, mantidas as taxas de cres
 package Lista5;
 public class Questao4 {
     
+    
+    
+    
+    
+    
+    
 }
+    
+    
+    
+    
+    
+    
+    
+    
+

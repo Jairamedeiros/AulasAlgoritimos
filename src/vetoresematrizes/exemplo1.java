@@ -1,6 +1,6 @@
 /*
  * Todo vetor começa com 0 - valor a ser -3 então seleciona entre cochetes 
-o 3 , pois o -3 que é p/ ser mostrado está posição 3 
+o 3 , pois o -3 que é p/ ser mostrado esta posição 3 
  */
 package vetoresematrizes;
 
